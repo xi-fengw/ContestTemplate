@@ -1,4 +1,3 @@
-```cpp
 struct DSU {
     std::vector<int> f, siz;
     DSU(int n) : f(n), siz(n, 1) { std::iota(f.begin(), f.end(), 0); }
@@ -21,4 +20,4 @@ struct DSU {
     
     int size(int x) { return siz[leader(x)]; }
 };
-```
+
