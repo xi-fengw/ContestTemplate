@@ -119,3 +119,4 @@ template <class T, class... Ts> void rd_debug(const T &arg, const Ts &...args) {
 #define debug(...) (void(0))
 #define dump(x) (void(0))
 #endif
+}
